@@ -1,0 +1,31 @@
+/* h2{
+    color: blue;
+}
+h3{
+    color: blue;
+} */
+
+/* selectores combinados */
+h2,h3{
+    color: blue;
+}
+
+div.contenedor{
+    border: 2px dotted black;
+}
+
+/* selectores descendientes */
+div.contenedor p{
+    color: red;
+}
+div.contenedor>p{
+    text-align: right;
+    color: green;
+}
+
+body>div{
+    background-color: yellow;
+}
+div.contenedor>div>p{
+    text-decoration: underline;
+}
