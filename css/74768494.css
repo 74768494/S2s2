@@ -1,7 +1,14 @@
-.contenedor a{
-    text-decoration: none;
-    color: green;
+h1{
+    border: 2px solid #00F;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-.titulo{
-    border: 2px dotted black;
+h2{
+    border: 2px solid #AAA;
+    padding-left: 5px;
+}
+.lista{
+    border: 2px solid #0F0;
+    margin-left: 10px;
 }
