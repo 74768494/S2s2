@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background: orange;
+    height: 200px;
+    width: 200px;
+    margin:0 auto;
+    margin-top: 20px;
+    border: 7px dashed black;
+
+    border-top-color: black;
+    border-top-style: dashed;
+    border-top-width: 7px;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: 7px;
+    border-bottom-color: black;
+    border-bottom-style: dotted;
+    border-bottom-width: 7px;
+    border-left-color: black;
+    border-left-style: double;
+    border-left-width: 7px;
+}
