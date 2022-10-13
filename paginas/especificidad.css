@@ -1,0 +1,17 @@
+header>h2.title#title{
+    font-size: 10px;
+}
+.copy{
+    color: black;
+}
+.header{
+    height: 400px;
+    background: red;
+    color: white;
+    font-size: 20x;
+}
+
+/* 1000 - style en html
+100 - id
+10 - clases, atributos
+1 - etiquetas */
