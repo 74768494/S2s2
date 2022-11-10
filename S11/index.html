@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+    <script>
+        var numA= parseFloat(prompt("Ingrese el primer numero"));
+        var numB = parseFloat(prompt("Ingresa el segundo numero"));
+
+        if((isNaN(numA)==false) && (isNaN(numB)==false))
+        {
+            var ope = prompt("Ingresa suma/resta/multiplicacion/division");
+            if(ope.toLowerCase() == "suma")
+            {
+                alert(numA+numB);
+            }
+            if (ope.toLowerCase()=="resta")
+            {
+                alert(numA-numB);
+            }
+            if((ope.toLowerCase() == "multiplicacion") || (ope.toLowerCase() == "multiplicación"))
+            {
+                alert(numA*numB);
+            }
+            if((ope.toLowerCase() == "division") || (ope.toLowerCase() == "división"))
+            {
+                alert(numA/numB);
+            }
+        }
+        else
+        {
+            alert("Ingrese correctamente los numeros");
+        }
+       
+    </script>
+    
+</body>
+</html>
