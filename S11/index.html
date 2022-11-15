@@ -13,7 +13,7 @@
 
 
 
-    <script>
+    <!-- <script>
         var numA= parseFloat(prompt("Ingrese el primer numero"));
         var numB = parseFloat(prompt("Ingresa el segundo numero"));
 
@@ -41,6 +41,58 @@
         {
             alert("Ingrese correctamente los numeros");
         }
+       
+    </script> -->
+     <script>
+        function division(num1, num2){
+            alert("El resultado de la division es "+ (num1/num2));
+        }
+        function multiplicacion(num1,num2){
+            alert("El resaultado de la multiplicacion es "+(num1*num2))
+        }
+        function resta(num1,num2){
+            alert("El resaultado de la resta es "+(num1-num2))
+        }
+        function suma(num1,num2){
+            alert("El resaultado de la suma es "+(num1+num2))
+        }
+
+        repetir = "si";
+        while(repetir == "si"){
+
+        var ope = prompt("Ingrese suma/resta multiplicacion/division");
+        var numA= parseFloat(prompt("Ingrese el primer numero"));
+        var numB = parseFloat(prompt("Ingresa el segundo numero"));
+
+        if((isNaN(numA)==false) && (isNaN(numB)==false))
+        {
+            if(ope == "suma")
+            {
+                // alert(numA+numB);
+                suma(numA,numB);
+            }
+            else if (ope =="resta")
+            {
+                // alert(numA-numB);
+                resta(numA,numB);
+            }
+            else if((ope == "multiplicacion") || (ope == "multiplicación"))
+            {
+                // alert(numA*numB);
+                multiplicacion(numA,numB);
+            }
+            else if((ope == "division") || (ope == "división"))
+            {
+                // alert(numA/numB);
+                division(numA,numB);
+            }
+            }
+            else
+            {
+                alert("Ingrese correctamente los numeros");
+            }
+        var repetir = prompt("Desea repetir? (si/no)");
+    }
        
     </script>
     
