@@ -15,22 +15,44 @@
         // for(var contador = 1;contador <=5; contador = contador+1) {
         //     document.write("en la vuelta numero"+contador+" entrega nota <br>");
         // }
-        var meses = ["Enero",
-                     "Febrero",
-                     "Marzo",
-                     "Abril",
-                     "Mayo",
-                     "Junio",
-                     "Julio",
-                     "Agosto",
-                     "Septiembre",
-                     "Octubre",
-                     "Noviembre",
-                     "Diciembre"];
-        for(var contador = 1;contador <= 12;contador=contador+1){
-            document.write("vuelta fue"+ contador +" "+ meses[contador-1]+"<br>");
-        }
 
+
+        // var meses = ["Enero",
+        //              "Febrero",
+        //              "Marzo",
+        //              "Abril",
+        //              "Mayo",
+        //              "Junio",
+        //              "Julio",
+        //              "Agosto",
+        //              "Septiembre",
+        //              "Octubre",
+        //              "Noviembre",
+        //              "Diciembre"];
+        // for(var contador = 1;contador <= 12;contador=contador+1){
+        //     document.write("vuelta fue"+ contador +" "+ meses[contador-1]+"<br>");
+        // }
+
+
+        var nombres = new Array();
+        var indice = 0
+        var salir = "no"
+        // nombres[0]="jose";
+        // document.write(nombres[0]+"<br>");
+
+       
+        // nombres[1]="jose";
+        // document.write(nombres[1]);
+
+        while(salir == "no"){
+            nombres[indice]=prompt("Ingrese el nombre: ");
+            indice = indice+1;
+            salir = prompt("Desea salir (si/no): ");
+        }
+        for(var contador=1; contador <= nombres.length; contador = contador +1){
+            document.write(nombres[contador-1]+"<br>");
+        }
+        
     </script>
 </body>
 </html>
